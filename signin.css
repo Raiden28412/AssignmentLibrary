@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/illuminated-luxury-white-background-3d-background-sci-fi-2880x1800-7666.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 15px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #00bcd4;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ig {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+input:focus {
+    border-color: #e8eff0;
+}
+
+.btn {
+    background-color: #79030d;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0097a7;
+}
+
+.text-small {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.text-small a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.text-small a:hover {
+    text-decoration: underline;
+}

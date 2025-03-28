@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details - Seige ans Storm</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            background-image:url("https://i0.wp.com/www.heyuguys.com/images/2014/01/The-Hunger-Games-Mockingjay-Part-1-Poster-slice.jpg?fit=1024%2C562&ssl=1");
+            background-size:cover;
+        }
+
+        .container {
+            margin-top: 50px;
+            background-color: #f7f3eb;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-cover {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+
+        .btn-start {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-start:hover {
+            background-color: #555;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .user-review {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .user-review img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #007bff;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="https://cdn.dribbble.com/userupload/4797222/file/original-ff4d94327e76e47822abd9b67fe8e29f.jpg?resize=400x0" alt="Logo" width="30" height="25" class="d-inline-block align-text-top">
+              Library
+            </a>
+          </div>
+<!--         
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div> -->
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Books
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Shadow and Bone</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+      
+      
+      
+            </ul>
+          </div>
+      
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Book Cover -->
+            <div class="col-md-4 text-center">
+                <img src="https://m.media-amazon.com/images/I/91Rej12FvgS.jpg" alt="Harry Potter Book" class="book-cover mb-3">
+            </div>
+            <!-- Book Details -->
+            <div class="col-md-8">
+                <h2>THE HUNGER GAMES:MOCKINGJAY </h2>
+                <p><strong>Suzanne Collins</strong></p>
+                <p >Fire is catching. The rebellion begins.</p>
+                <a href="#" class="btn btn-start">Start reading →</a>
+
+                <!-- Description -->
+                <div class="section-title">Description</div>
+                <p> Catching Fire follows Katniss Everdeen as she becomes the face of a growing rebellion. Forced back into the deadly Hunger Games, she must fight not just for survival, but for the future of Panem.</p>
+                <!-- Editors -->
+                <div class="section-title">Editors</div>
+                <p> Suzanne Collins(author), Kate Egan.</p>
+
+                <!-- Language -->
+                <div class="section-title">Language</div>
+                <p>Standard English (USA & UK)</p>
+
+                <!-- Paperback Details -->
+                <div class="section-title">Paperback</div>
+                <p>Paper textured, full colour, 391 pages<br>ISBN: 987 3 32564 455 B</p>
+
+                <!-- Review Section -->
+                <div class="user-review">
+                    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Simpsons.gif" alt="User Review">
+                    <div>
+                        <strong>Aadi Goel</strong>
+                        <p class="mb-0">"Katniss Everdeen, the Girl on Fire🔥 or the Mockingjay, inspired me to keep on fighting and to never give up. And the trilogy is an apt example of 'We can be mended'.
+                            "</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        &copy; 
+    </div>
+
+</body>
+</html>

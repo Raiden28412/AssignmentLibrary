@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details - Shadow and Bone</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            background-image: url("https://wallpaper.forfun.com/fetch/d3/d367ceb2490f64713ec333400eb69703.jpeg");
+            background-size:cover;     
+        }
+
+        .container {
+            margin-top: 50px;
+            background-color: #f7f3eb;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-cover {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+
+        .btn-start {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-start:hover {
+            background-color: #555;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .user-review {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .user-review img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #007bff;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="https://cdn.dribbble.com/userupload/4797222/file/original-ff4d94327e76e47822abd9b67fe8e29f.jpg?resize=400x0" alt="Logo" width="30" height="25" class="d-inline-block align-text-top">
+              Library
+            </a>
+          </div>
+<!--         
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div> -->
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Books
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Shadow and Bone Triology</a></li>   
+                    <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="shadowandbone.html">Shadow and Bone</a></li>
+                     <li><a class="dropdown-item" href="seigeandstorm.html">Seige and Storm</a></li>
+                     <li><a class="dropdown-item" href="ruinandrising.html">Ruin and Rising</a></li>
+                     <li><hr class="dropdown-divider"></li>
+                     <li><a class="dropdown-item" href="ruinandrising.html">The Hunger Games series</a></li>
+                     <li><hr class="dropdown-divider"></li>
+                     <li><a class="dropdown-item" href="thehungergames.html">The Hunger Gammes</a></li>
+                     <li><a class="dropdown-item" href="catchingfire.html">The Hunger Games:Catching Fire</a></li>
+                     <li><a class="dropdown-item" href="mokingjay.html">The Hunger Games:Mockingjay</a></li>
+                     <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+      
+            </ul>
+          </div>
+      
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Book Cover -->
+            <div class="col-md-4 text-center">
+                <img src="https://m.media-amazon.com/images/I/816JhuO1cyS._AC_UF1000,1000_QL80_.jpg" alt="Harry Potter Book" class="book-cover mb-3">
+            </div>
+            <!-- Book Details -->
+            <div class="col-md-8">
+                <h2>SHADOW AND BONE</h2>
+                <p><strong>Leigh Bardugo</strong></p>
+                <p >When magic and darkness collide, only the light within can save the world.</p>
+                <a href="#" class="btn btn-start">Start reading →</a>
+
+                <!-- Description -->
+                <div class="section-title">Description</div>
+                <p> Shadow and Bone follows Alina Starkov, an orphan who discovers a rare power that could save her war-torn country from darkness. Taken to train with the magical Grisha under the mysterious Darkling, she must navigate power, betrayal, and destiny in this thrilling fantasy adventure.</p>
+                <!-- Editors -->
+                <div class="section-title">Editors</div>
+                <p> Leigh Bardugo(author), Noa Wheeler, with Henry Holt and Company.</p>
+
+                <!-- Language -->
+                <div class="section-title">Language</div>
+                <p>Standard English (USA & UK)</p>
+
+                <!-- Paperback Details -->
+                <div class="section-title">Paperback</div>
+                <p>Paper textured, full colour, 358 pages<br>ISBN: 987 3 32564 455 B</p>
+
+                <!-- Review Section -->
+                <div class="user-review">
+                    <img src="https://media3.giphy.com/media/nKG86WRlokFfW/giphy.gif?cid=6c09b952qe2wwjlwgxc0q4ng59m3anqcgf65n2j7n62owdrw&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="User Review">
+                    <div>
+                        <strong>Eva Lurie</strong>
+                        <p class="mb-0">"I think that this was a overall great book!! It kept me hooked from the start with Alina going from a worthless orphan to one of the most powerful 𝑔𝑟𝑖𝑠ℎ𝑎 known, the sun summoner. This made me finish  this book in not even a day. A brilliant masterpiece of a story."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        &copy; 
+    </div>
+
+</body>
+</html>
